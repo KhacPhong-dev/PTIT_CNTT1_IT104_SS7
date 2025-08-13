@@ -11,7 +11,7 @@ class Vehicle {
 
     slowDown(amount: number): void {
         this.speed -= amount;
-        if (this.speed < 0) this.speed = 0; // Ensure speed doesn't go negative
+        if (this.speed < 0) this.speed = 0;
     }
 
     speedUp(amount: number): void {
